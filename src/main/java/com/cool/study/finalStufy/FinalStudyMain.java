@@ -1,4 +1,4 @@
-package com.cool.study.fnal;
+package com.cool.study.finalStufy;
 
 /**
  * Created by cool on 16/7/4.
