@@ -24,8 +24,4 @@ public class ThreadPool {
         es.shutdown();
     }
 
-    public void testPoolSync(){
-
-
-    }
 }
