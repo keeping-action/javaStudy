@@ -1,2 +1,2 @@
 # javaStudy
-some demo about study Java
+some demo about study Java.
