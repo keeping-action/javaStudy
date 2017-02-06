@@ -1,4 +1,4 @@
-package com.cool.study.datastruct;
+package com.cool.study.base.datastruct;
 
 /**
  * Created by cool on 16/7/5.
