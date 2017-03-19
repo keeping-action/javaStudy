@@ -77,29 +77,35 @@ public class Sort {
 
     }
 
-    public void quickSort(int list[] ,int low,int hight){
+    public void quickSort(int list[] ,int low,int height){
 
-        if (low<hight){
+        if (low<height){
             //quickSort(list,);
-            int middle=getMiddle(list,low,hight);
+            int middle=getMiddle(list,low,height);
             quickSort(list,low,middle-1);
-            quickSort(list,middle+1,hight);
+            System.out.println("low");
+            printArray(list);
+
+            quickSort(list,middle+1,height);
+            System.out.println("height");
+            printArray(list);
+
 
         }
 
     }
 
-    public int getMiddle(int list[],int low,int hight){
+    public int getMiddle(int list[],int low,int height){
 
         int tmp=list[low];
 
         //一个从左边，另一个从右边
-        while(low<hight){
+        while(low<height){
 
-            while (low <hight &&list[hight]>tmp) hight--;
-            list[low]=list[hight];
-            while (low<hight && list[low]<=tmp) low++;
-            list[hight]=list[low];
+            while (low <height &&list[height]>tmp) height--;
+            list[low]=list[height];
+            while (low<height && list[low]<=tmp) low++;
+            list[height]=list[low];
 
         }
 
